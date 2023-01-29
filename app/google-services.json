@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543175182670",
+    "firebase_url": "https://spam-blocker-3cf03-default-rtdb.firebaseio.com",
+    "project_id": "spam-blocker-3cf03",
+    "storage_bucket": "spam-blocker-3cf03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543175182670:android:92f8ba810e2c2d555cb61f",
+        "android_client_info": {
+          "package_name": "com.example.spamblocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543175182670-sl5obd1hkhhvv0qor1vna1c8dgrdl4ct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spamblocker",
+            "certificate_hash": "8d7a199173f7c17bf2cba039382755ea63453395"
+          }
+        },
+        {
+          "client_id": "543175182670-qjdpql8jcaqefivcbtdetetn69pp2jc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1JGdjptRO_syWfqWzLyQaKlP6Yrd2Tdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543175182670-qjdpql8jcaqefivcbtdetetn69pp2jc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

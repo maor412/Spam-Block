@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Spam Blocker</string>
+    <string name="button_is_off">Spam Blocker is off</string>
+    <string name="button_off_body">Activate it and you will be protected from spam!</string>
+    <string name="button_is_on">Spam Blocker is on</string>
+    <string name="button_on_body">You are protected from spam!</string>
+</resources>
