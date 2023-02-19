@@ -92,7 +92,7 @@ public class MyForegroundService extends Service {
         }
         String number = tMgr.getLine1Number();
         if (number == null)
-            number = "0529589098";
+            number = "0500000000";
         DatabaseReference usersRef = database.getReference(number);
 
 

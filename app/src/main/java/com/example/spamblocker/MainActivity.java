@@ -15,17 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     SharedPreferences sharedPreferences;
     ImageButton imageButton;
-    private static final int REQUEST_CODE = 1;
-    String[] PERMISSIONS = {
-            android.Manifest.permission.READ_CALL_LOG,
-            android.Manifest.permission.READ_PHONE_STATE,
-            android.Manifest.permission.READ_SMS,
-            android.Manifest.permission.RECEIVE_SMS,
-            android.Manifest.permission.FOREGROUND_SERVICE
-    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        requestPermissions();
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getSupportActionBar().hide();
@@ -34,20 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setOnClickListeners();
         Intent serviceIntent = new Intent(this, MyForegroundService.class);
         startService(serviceIntent);
-    }
-    private void requestPermissions() {
-        if(!hasPermissions(PERMISSIONS)){
-            ActivityCompat.requestPermissions(this, PERMISSIONS, REQUEST_CODE);
-        }
-    }
-
-    private boolean hasPermissions(String[] permissions) {
-        for (String permission : permissions) {
-            if (ActivityCompat.checkSelfPermission(this, permission) != PackageManager.PERMISSION_GRANTED) {
-                return false;
-            }
-        }
-        return true;
     }
 
     private void setOnClickListeners() {
